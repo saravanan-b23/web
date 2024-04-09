@@ -1,375 +1,921 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="zxx" class="no-js">
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <!-- main style -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script type="module" crossorigin src="./js/cursor.js"></script>
-
+    <!-- ======= titles ======= -->
+    <title>oXe - Dark Personal Portfolio Template.</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="themewarehouse">
+    <!-- ======= favicon ======= -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- ======= Google Fonts ======= -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <!-- ======= All CSS ======= -->
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- vegas css -->
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <!-- hover css -->
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- typing css -->
+    <link rel="stylesheet" href="css/typing.css">
+    <!-- lightbox css -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="status">
-
-            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
-            </div>
-
+    <!-- ======= preloader part start ======= -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
         </div>
     </div>
-    <!-- ./Preloader -->
+    <!-- ======= preloader Part end ======= -->
 
-    <!-- header -->
-    <header class="navbar-fixed-top">
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- ./header -->
-    <main>
-        <nav class="mosaicogrid">
-            <!-- will be filled with .mosaicogrid_cell cells by loadimages.js -->
-        </nav>
-        <section class="paginator_container">
-            <!-- will be filled by paginator.js -->
-        </section>
-        <div class="graphics_sketches sketches_container">
-            <!-- will be filled by .js -->
-        </div>
-        <section class="graphics_sketches_paginator sketches_paginator_container">
-            <!-- will be filled by paginator.js -->
-        </section>
-        <div class="paintings_sketches sketches_container">
-            <!-- will be filled by .js -->
-        </div>
-        <section class="paintings_sketches_paginator sketches_paginator_container">
-            <!-- will be filled by paginator.js -->
-        </section>
-    </main>
-
-    <!-- home -->
-    <div class="section" id="home" data-stellar-background-ratio="0.5">
+    <!-- ======= Header Part Start ======= -->
+    <header class="header-area navbar-fixed-top">
         <div class="container">
-            <div class="disply-table">
-                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
-                    <h4>SARAVANAN B</h4>
-                    <h5>Driven by a love for technology and design,<br> I strive to blend innovation with aesthetics.<br>
-                        Whether it's shaping , designing user interfaces, or crafting immersive games,<br> I find
-                        joy in every creative endeavor.<br> My journey in the digital realm is a continuous exploration,<br> and
-                        I'm excited to embark on new challenges and collaborations.
-                        </p>
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ./home -->
-
-    <!-- about -->
-    <div class="section" id="about">
-        <div class="container">
-            <div class="col-md-6" data-aos="fade-up">
-                <h4>01</h4>
-                <h1 class="size-50">Know <br /> About me</h1>
-                <div class="h-50"></div>
-                <p>I am a passionate website designer with expertise in Figma for creating visually appealing and
-                    user-friendly websites. Additionally, I specialize in game design using Unity and 3D modeling with
-                    Blender. My skills range from crafting intricate website layouts to developing engaging games and
-                    creating detailed 3D models. With a background in these diverse design tools, I aim to bring
-                    creativity and innovation to every project I undertake.</p>
-
-                <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" />
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-6 about-img-div">
-                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
-                <img src="img/coding-ground.png" width="470" class="img-responsive" alt="code" data-aos="fade-right"
-                    data-aos-delay="0" style="align-items:flex-start;"/>
-            </div>
-        </div>
-    </div>
-    <!-- ./about -->
-
-    <!-- experience  -->
-    <div class="section" id="experience">
-        <div class="container">
-            <div class="col-md-12">
-                <h4>02</h4>
-                <h1 class="size-50">My <br /> Experience</h1>
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-12">
-                <ul class="timeline">
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">Ref fest in AR&VR</p>
-                            <h3>Tourist app</h3>
-                            <h4>Team project</h4>
-                            <p><strong>Include 3d model</strong>
-                                <br>Led a dynamic team project focused on refining the AR/VR technology stack.
-                                Collaborated on complex 3D projects, enabling real-time teamwork for creating,
-                                simulating, and rendering photorealistic environments
-                            </p>
-                        </div>
-                    </li>
-                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">SIH</p>
-                            <h3>job seeking app</h3>
-                            <h4>Team project</h4>
-                            <p>Engaged in a collaborative team project for the development of a job-seeking app under
-                                the Smart India Hackathon (SIH). Involved in the conceptualization, design, and
-                                production of digital magazines using InDesign, Adobe Digital Publishing Suite, and
-                                HTML5</p>
-                        </div>
-                    </li>
-                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">CISCO</p>
-                            <h3>Internship</h3>
-                            <h4>TWO COURSE</h4>
-                            <p><strong>packet racer and network essential</strong>
-                                <br>Completed a rigorous internship at CISCO, undertaking two courses: Packet Racer and
-                                Network Essentials. Specialized in the conceptualization and modeling of systems and
-                                APIs for digital publishing and entitlement based on Service-Oriented Architecture (SOA)
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- ./experience -->
-
-    <!-- projects -->
-    <div class="section" id="projects">
-        <div class="container">
-            <div class="col-md-12">
-                <h4>03</h4>
-                <h1 class="size-50">My <br /> Projects</h1>
-            </div>
-            <!-- main container -->
-            <div class="main-container portfolio-inner clearfix">
-                <!-- portfolio div -->
-                <div class="portfolio-div">
-                    <div class="portfolio">
-                        <!-- portfolio_filter -->
-                        <div class="categories-grid wow fadeInLeft">
-                            <nav class="categories">
-                                <ul class="portfolio_filter">
-                                    <li><a href="" class="active" data-filter="*">All</a></li>
-                                    <li><a href="" data-filter=".photography">game</a></li>
-                                    <li><a href="" data-filter=".logo">mobile app</a></li>
-                                    <li><a href="" data-filter=".ads">Figma</a></li>
-
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- portfolio_filter -->
-
-                        <!-- portfolio_container -->
-                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  fashion logo">
-                                <a class="portfolio_item"> <img src="img/sara.jpeg" alt="image"
-                                        class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>tourist app</span> <em>learning</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a class="portfolio_item"> <img src="img/Screenshot 2023-12-22 195018.png" alt="image"
-                                        class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>shooting</span> <em>Ads / game</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a class="portfolio_item"> <img src="img/Screenshot 2023-12-22 194537.png" alt="image"
-                                        class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Nanture world</span> <em>game</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 fashion logo">
-                                <a class="portfolio_item"> <img src="img/78edf8b5-55d6-4d53-abe8-de37368ab4fb.jpeg"
-                                        alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Held by hands</span> <em>Fashion / Ads</em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 fashion logo ">
-                                <a class="portfolio_item"> <img src="img/091ab603-7b65-4246-8247-9dec3c57aaaf.jpeg"
-                                        alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Tourist</span> <em>places</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a class="portfolio_item"> <img src="img/Screenshot 2023-12-22 194948.png" alt="image"
-                                        class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>flood destroyed</span> <em>game</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a class="portfolio_item"> <img src="img/1.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span></span> <em>front app</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a class="portfolio_item"> <img src="img/2.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>sih project</span> <em>app</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a class="portfolio_item"> <img src="img/3.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>movie download </span> <em>website</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                        </div>
-                        <!-- end portfolio_container -->
+            <div class="row">
+                <div class="col-md-2 col-xs-3">
+                    <!-- logo part -->
+                    <div class="logo">
+                        <a href="#">
+                            <h2>oXe.</h2>
+                        </a>
                     </div>
-                    <!-- portfolio -->
                 </div>
-                <!-- end portfolio div -->
+                <div class="col-md-10 col-xs-9">
+                    <!-- menu part -->
+                    <div class="menu-part">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse main-menu" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active"><a class="nav-link" href="#top">home</a></li>
+                                        <li><a class="nav-link" href="#about">about me</a></li>
+                                        <li><a class="nav-link" href="#service">service</a></li>
+                                        <li><a class="nav-link" href="#portfolio">portfolio</a></li>
+                                        <li><a class="nav-link" href="#team">team</a></li>
+                                        <li><a class="nav-link" href="#testmonial">testmonial</a></li>
+                                        <li><a class="nav-link" href="#blog">recent blog</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-no-sidebar.html">blog no-sidebar</a></li>
+                                                <li><a href="blog-left.html">blog left</a></li>
+                                                <li><a href="blog-right.html">blog right</a></li>
+                                                <li><a href="blog-details-no-sidebar.html">single blog no-sidebar</a></li>
+                                                <li><a href="blog-details-left.html">single blog left</a></li>
+                                                <li><a href="blog-details-right.html">single blog right</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link" href="#contact">contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                        </nav>
+                    </div>
+                </div>
             </div>
-            <!-- end main container -->
         </div>
-    </div>
-    <!-- ./projects -->
+    </header>
+    <!-- ======= Header Part End ======= -->
 
-    <!-- contact -->
-    <div class="section" id="contact">
+    <!-- ======= slider part start ======= -->
+    <section id="top" class="slider-area">
         <div class="container">
-            <div class="col-md-12">
-                <h4>04</h4>
-                <h1 class="size-50">Contact Me</h1>
-                <div class="h-50"></div>
+            <!-- slider info -->
+            <div class="slider-table">
+                <div class="slider-table-cell">
+                    <h2>Hi, I am </h2>
+                    <h2>John Doe</h2>
+                    <p class="cd-headline clip is-full-width">
+                        Professional
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible"> Web Designer and</b>
+                            <b>Web developer</b>
+                        </span>
+                    </p>
+                    <a class="oxe-btn hvr-shutter-out-horizontal" href="#">resume</a>
+                    <a class="oxe-btn hvr-shutter-in-horizontal" href="#">hire me</a>
+                </div>
             </div>
-            <div class="col-md-4" data-aos="fade-up">
-
-                <h3>Email</h3>
-                <p>bsaravanan933@gmail.com</p>
-
-                <h3>Social Network</h3>
-
-                <ul class="social">
-
-                    <li><a href="https://www.linkedin.com/in/saravananb2004/"><i class="ion-social-linkedin"></i></a>
-                    </li>
-                    <li><a href="https://github.com/B-SARAVANAN"><i class="ion-social-github"></i></a></li>
-                </ul>
-                <div class="clearfix"></div>
-                <div class="h-50"></div>
-            </div>
-            </form>
         </div>
+    </section>
+    <!-- ======= slider part end ======= -->
+
+    <!-- ======= about part start ======= -->
+    <section id="about" class="about-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>about me</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="about-img">
+                        <div class="person">
+                            <img src="img/person.jpg" alt="">
+                            <!-- Social Links -->
+                            <div class="social-link">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <h2>willium kerry</h2>
+                        <p>web designer & developer</p>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <!-- personal info -->
+                    <div class="about-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius odio at massa tempus dapibus. Duis diam magna, ornare in tellus et, congue eleifend justo. Duis vitae dui luctus. </p>
+                        <p>varius. Praesent luctus consequat mi at imperdiet. Nam vel elit semper, molestie diam vel, euismod leo. Phasellus hendrerit magna nibh, sed tempor nunc porttitor vel.</p>
+                        <p>There anyone who loves or pursues or desires to obtain pain of it is because seds all occasionally circumstances.</p>
+                        <a class="oxe-btn hvr-shutter-out-horizontal" href="#"> <i class="fa fa-cloud-download" aria-hidden="true"></i> Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= about part end ======= -->
+
+    <!-- ======= service part start ======= -->
+    <section id="service" class="service-part section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>service</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <!-- single service -->
+                    <div class="service service_box1">
+                        <i class="fa fa-wordpress"></i>
+                        <div class="service-info">
+                            <h3>wordpress</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!-- single service -->
+                    <div class="service service_box2">
+                        <i class="fa fa-html5" aria-hidden="true"></i>
+                        <div class="service-info">
+                            <h3>html5</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!-- single service -->
+                    <div class="service service_box3">
+                        <i class="fa fa-css3" aria-hidden="true"></i>
+                        <div class="service-info">
+                            <h3>css3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!-- single service -->
+                    <div class="service service_box4">
+                        <i class="fa fa-joomla" aria-hidden="true"></i>
+                        <div class="service-info">
+                            <h3>joomla</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= service part end ======= -->
+
+    <!-- ======= portfolio part start ======= -->
+    <section id="portfolio" class="portfolio-area section-padding parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>Portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Portfolio Menu -->
+                <div class="iso-nav">
+                    <ul>
+                        <li class="portfolio-active" data-filter="*">All</li>
+                        <li data-filter=".design">web design</li>
+                        <li data-filter=".development">web development</li>
+                        <li data-filter=".graphic">graphic</li>
+                        <li data-filter=".networking">networking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio content -->
+        <div class="iso-content">
+            <!-- single portfolio -->
+            <div class="single-project iso-item design networking">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/01.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>web design</h4>
+                        </a>
+                        <a href="img/portfolio/01.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item development design graphic">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/02.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>web development</h4>
+                        </a>
+                        <a href="img/portfolio/02.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item graphic">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/03.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>graphic</h4>
+                        </a>
+                        <a href="img/portfolio/03.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item networking development">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/04.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>networking</h4>
+                        </a>
+                        <a href="img/portfolio/04.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item design graphic">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/05.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>web design</h4>
+                        </a>
+                        <a href="img/portfolio/05.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item development">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/06.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>web design</h4>
+                        </a>
+                        <a href="img/portfolio/06.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/07.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>graphic</h4>
+                        </a>
+                        <a href="img/portfolio/07.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+            <!-- single portfolio -->
+            <div class="single-project iso-item development">
+                <div class="iso-overflow"></div>
+                <img src="img/portfolio/08.jpg" alt="">
+                <div class="project-lightbox">
+                    <div class="project-lightbox-middile">
+                        <a href="#">
+                            <h4>graphic</h4>
+                        </a>
+                        <a href="img/portfolio/08.jpg" data-lightbox="example-set" data-title="personi">
+							<i class="fa fa-expand" aria-hidden="true"></i>
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= portfolio part end ======= -->
+
+    <!-- ======= progress part start ======= -->
+    <section id="progress" class="progress-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>my skill</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 col-sm-6">
+                        <!-- progress circle -->
+                        <div class="progress-circle">
+                            <div class="first circle">
+                                <strong></strong>
+                                <h3>wordpress</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!-- progress circle -->
+                        <div class="progress-circle">
+                            <div class="second circle">
+                                <strong></strong>
+                                <h3>html5</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <!-- progress circle -->
+                        <div class="progress-circle">
+                            <div class="third circle">
+                                <strong></strong>
+                                <h3>css3</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <!-- progress circle -->
+                        <div class="progress-circle">
+                            <div class="four circle">
+                                <strong></strong>
+                                <h3>joomla</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= progress part end ======= -->
+
+    <!-- ======= team part start ======= -->
+    <section id="team" class="team-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>expert team</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <!-- single member -->
+                    <div class="team-member text-center">
+                        <div class="member-img">
+                            <img src="img/team/01.jpg" alt="">
+                            <div class="social-overlay">
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>johnthan doe</h3>
+                        <span>CEO / Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <!-- single member -->
+                    <div class="team-member text-center">
+                        <div class="member-img">
+                            <img src="img/team/02.jpg" alt="">
+                            <div class="social-overlay">
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>Georjina Parker</h3>
+                        <span>Wordpress Expart</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <!-- single member -->
+                    <div class="team-member text-center">
+                        <div class="member-img">
+                            <img src="img/team/03.jpg" alt="">
+                            <div class="social-overlay">
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>lily adams</h3>
+                        <span>Joomla Expart</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!-- single member -->
+                    <div class="team-member text-center">
+                        <div class="member-img">
+                            <img src="img/team/04.jpg" alt="">
+                            <div class="social-overlay">
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-vimeo"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>Robert Doe</h3>
+                        <span>frontend developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= team part end ======= -->
+
+    <!-- ======= client part start ======= -->
+    <section id="testmonial" class="client-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>happy client</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="client-comment">
+                        <div class="client-comment-info owl-carousel">
+                            <!-- Single client -->
+                            <div class="client-comments-details">
+                                <img src="img/client/01.jpg" alt="">
+                                <div class="rate">
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adiping elit. Etiam placerat odio nec quam aliquet, velsa consectetur neque varius.</p>
+                                <h3>- jonathan doe -</h3>
+                            </div>
+                            <!-- Single client -->
+                            <div class="client-comments-details">
+                                <img src="img/client/02.jpg" alt="">
+                                <div class="rate">
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adiping elit. Etiam placerat odio nec quam aliquet, velsa consectetur neque varius.</p>
+                                <h3>- lily adams -</h3>
+                            </div>
+                            <!-- Single client -->
+                            <div class="client-comments-details">
+                                <img src="img/client/03.jpg" alt="">
+                                <div class="rate">
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adiping elit. Etiam placerat odio nec quam aliquet, velsa consectetur neque varius.</p>
+                                <h3>- Georjina Parker -</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= client part end ======= -->
+
+    <!-- ======= news area start ======= -->
+    <section id="blog" class="news-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>latest blog</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="blog-slide owl-carousel">
+                    <!-- Single news -->
+                    <article class="news-info">
+                        <div class="news-img">
+                            <img src="img/news/01.jpg" alt="">
+                            <div class="post-date">
+                                <div class="post-date-info">
+                                    <span>26</span> oct/18
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-meta">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-user"></span> By Smith</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>253 likes</a></li>
+                                    <li><a href="#"><span class="fa fa-commenting-o"></span> 23 Comments</a></li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <h2>blog title</h2>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the more printing and typesetting industry.</p>
+                            <a class="oxe-btn hvr-shutter-out-horizontal" href="#">read more</a>
+                        </div>
+                    </article>
+                    <!-- Single news -->
+                    <article class="news-info">
+                        <div class="news-img">
+                            <img src="img/news/02.jpg" alt="">
+                            <div class="post-date">
+                                <div class="post-date-info">
+                                    <span>03</span> nov/18
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-meta">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-user"></span> By Smith</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>89 likes</a></li>
+                                    <li><a href="#"><span class="fa fa-commenting-o"></span> 23 Comments</a></li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <h2>blog title</h2>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the more printing and typesetting industry.</p>
+                            <a class="oxe-btn hvr-shutter-out-horizontal" href="#">read more</a>
+                        </div>
+                    </article>
+                    <!-- Single news -->
+                    <article class="news-info">
+                        <div class="news-img">
+                            <img src="img/news/03.jpg" alt="">
+                            <div class="post-date">
+                                <div class="post-date-info">
+                                    <span>13</span> dec/18
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-meta">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-user"></span> By Smith</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>148 likes</a></li>
+                                    <li><a href="#"><span class="fa fa-commenting-o"></span> 23 Comments</a></li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <h2>blog title</h2>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the more printing and typesetting industry.</p>
+                            <a class="oxe-btn hvr-shutter-out-horizontal" href="#">read more</a>
+                        </div>
+                    </article>
+                    <!-- Single news -->
+                    <article class="news-info">
+                        <div class="news-img">
+                            <img src="img/news/04.jpg" alt="">
+                            <div class="post-date">
+                                <div class="post-date-info">
+                                    <span>13</span> dec/18
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-meta">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-user"></span> By Smith</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>148 likes</a></li>
+                                    <li><a href="#"><span class="fa fa-commenting-o"></span> 23 Comments</a></li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <h2>blog title</h2>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the more printing and typesetting industry.</p>
+                            <a class="oxe-btn hvr-shutter-out-horizontal" href="#">read more</a>
+                        </div>
+                    </article>
+                    <!-- Single news -->
+                    <article class="news-info">
+                        <div class="news-img">
+                            <img src="img/news/05.jpg" alt="">
+                            <div class="post-date">
+                                <div class="post-date-info">
+                                    <span>13</span> dec/18
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-meta">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-user"></span> By Smith</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>148 likes</a></li>
+                                    <li><a href="#"><span class="fa fa-commenting-o"></span> 23 Comments</a></li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <h2>blog title</h2>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the more printing and typesetting industry.</p>
+                            <a class="oxe-btn hvr-shutter-out-horizontal" href="#">read more</a>
+                        </div>
+                    </article>
+                    <!-- Single news -->
+                    <article class="news-info">
+                        <div class="news-img">
+                            <img src="img/news/06.jpg" alt="">
+                            <div class="post-date">
+                                <div class="post-date-info">
+                                    <span>13</span> dec/18
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-meta">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-user"></span> By Smith</a></li>
+                                    <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>148 likes</a></li>
+                                    <li><a href="#"><span class="fa fa-commenting-o"></span> 23 Comments</a></li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <h2>blog title</h2>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the more printing and typesetting industry.</p>
+                            <a class="oxe-btn hvr-shutter-out-horizontal" href="#">read more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= news area end ======= -->
+
+    <!-- ======= contact us area start ======= -->
+    <section class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <!-- section title -->
+                    <div class="section-title text-center">
+                        <h2>contact me</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates similique cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <!-- contact form content -->
+                    <div class="contact-form-area">
+                        <!-- contact form -->
+                        <div class="contact-form">
+                            <form action="#" method="POST" id="active-contact-form">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="form-content">
+                                            <input name="name" placeholder="Your Name" class="form-control" required="" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="form-content">
+                                            <input name="email" placeholder="Your Email" class="form-control" required="" type="email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="form-content">
+                                            <input name="phone" placeholder="Phone Number" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="form-content">
+                                            <input name="subject" placeholder="Subject" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-message">
+                                            <textarea class="field-element form-control" data-gramm="true" spellcheck="false" data-gramm_editor="true" name="message" placeholder="Message" required=""></textarea>
+                                        </div>
+                                        <button type="submit" name="submit" class="oxe-btn hvr-shutter-out-horizontal sent-button">send message</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="thank-you-message"></p>
+                        </div>
+                        <!-- /.contact form -->
+                    </div>
+                    <!-- /.contact form content -->
+                </div>
+                <div class="col-md-5">
+                    <!-- support info -->
+                    <div class="contact-info-content">
+                        <h2>Get In Touch</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptate alias quod voluptas mollitia unde deserunt ab.</p>
+                        <div class="address-info">
+                            <ul>
+                                <li><span><i class="fa fa-map-marker" aria-hidden="true"></i> address</span> 100 Main St, Blacktown NSW 2148, Australia</li>
+                                <li><span><i class="fa fa-envelope" aria-hidden="true"></i> email</span><a href="#">support@bold.com, info@youremail.com</a></li>
+                                <li><span><i class="fa fa-phone" aria-hidden="true"></i> phone</span><a href="#">+256-4516-556, +(257) 56812749</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.support info -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= contact us area end ======= -->
+
+    <!-- map area-->
+    <div class="google-map-area">
+        <!-- map -->
+        <div id="map"></div>
+        <!-- /.map -->
     </div>
-    </div>
-    <!-- ./contact -->
+    <!-- /.map area -->
 
-    <!--DEMO01-->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!--  plugins  -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-
-    <!--  main script  -->
-    <script src="js/custom.js"></script>
-
-    <footer class="footer" id="contact">
-        <div class="container" style="align-items:center">
-            <p> © <span id="date">2023</span> SARAVANAN.B</p>
+    <!-- ======= footer area start ======= -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-7">
+                    <div class="copy-right-text">
+                        &copy; copyright oXe 2018. All Rights Reserved.
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-5 text-right">
+                    <div class="subscribe-form">
+                        <input type="email" name="email" placeholder="your email address">
+                        <button type="submit" name="submit" class="oxe-btn hvr-shutter-out-horizontal sent-button">subscribe</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
+    <!-- ======= footer area end ======= -->
+
+    <!-- ======= All JS ======= -->
+    <!-- modernizr js -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- jQuery min js -->
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- vegas js -->
+    <script src="js/vegas.min.js"></script>
+    <!-- typing js -->
+    <script src="js/typing.js"></script>
+    <!-- waypoints js -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- circle progress js -->
+    <script src="js/circle-progress.js"></script>
+    <!-- isotope js -->
+    <script src="js/isotope.min.js"></script>
+    <!-- jarallax js -->
+    <script src="js/jarallax.min.js"></script>
+    <!-- lightbox js -->
+    <script src="js/lightbox.min.js"></script>
+    <!-- ====== gmap3 js ======= -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq4jmXOSB3mlhBKAmVhWq5BUmFzvwWIsk"></script>
+    <script src="js/gmap3.min.js"></script>
+    <!-- scrollUp js -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
 
 </body>
 
